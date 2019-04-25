@@ -166,10 +166,12 @@ const people = [
 	{ name: 'George', friend: true, awesomeLevel: 7 }
 ]
 
-// Code Here
+const enemies = people.filter(val => !val.friend)
 
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce()
 
-// Code Here
+let totallyAwesome = people.reduce(function(total, val) {
+	return total + val.awesomeLevel
+}, 0)
