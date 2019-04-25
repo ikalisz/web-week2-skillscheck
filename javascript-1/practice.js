@@ -2,19 +2,19 @@
 
 // Create a variable called 'myName' that's value is your name
 
-// Code here
+const myName = 'Ian'
 
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' that's value is your favorite number
 
-//Code here
+const faveNum = 21
 
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called 'lovesCode' and set it to true
 
-//Code here
+const lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 
