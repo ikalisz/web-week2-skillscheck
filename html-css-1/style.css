@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.box {
+    width: 100%;
+}
+
+.companyHeader {
+    height: 50px;
+    background: #707070;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.companyText {
+    margin-left: 2em;
+    font-size: 1.7em;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    width: 25%
+}
+
+.black {
+    height: 260px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#E9E05F;
+}
+
+.yellowText {
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.white {
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blues {
+    height: 41%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blueBox {
+    height: 75%;
+    width: 19%;
+    background: #A4FFD7;
+    border-radius: 15px;
+}
+
+.oranges {
+    height: 30%;
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orangeBox {
+    background: #FFC36C;
+    height: 100%;
+    width: 47%;
+}
+
+.textBox {
+    height: 30%;
+    width: 77%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    font-size: .58em;
+    height: 60%;
+    width: 300px;
+    font-weight:bolder;
+}
+
+img {
+    height: 120px;
+    width: 180px;
+    margin-right: 50px;
+}
+
+.footer {
+    height: 99px;
+    background: #3A3A56;
+}
