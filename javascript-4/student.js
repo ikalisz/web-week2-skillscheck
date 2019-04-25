@@ -26,10 +26,10 @@ let me = {
     superHeroName: 'Interesting Ian',
     homeTown: 'Longmont',
     superPowers: ['going fast', 'coding', 'listening to music'],
-    superPowerXP(){
-        Math.floor(Math.random() * 100) + 1
+    superPowerXP : function(){
+        return Math.floor(Math.random() * 100) + 1
     },
-    profileImage: `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`
+    profileImage: function(){ return `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`}
 }
 
 //////////////////Step 3////////////////////
@@ -51,6 +51,7 @@ function setColor(arr) {
             arr[i] = '#4D4DFF'
         }
     }
+    
     background(...arr)
 }
 
@@ -69,7 +70,7 @@ function setPowers(arr) {
 
 function redactInfo(obj) {
     for (let key in obj) {
-        key = 'redacted'
+        obj[key] = 'redacted'
     }
     redacted()
 }
